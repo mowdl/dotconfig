@@ -7,3 +7,9 @@ vim.opt.winbar = "%=%m %f"
 
 -- make background transparent
 vim.g.nord_disable_background = true
+
+-- disable highlinting cursor line
+vim.o.cursorline = false
+
+vim.o.tabstop = 4 -- A TAB character looks like 4 spaces
+vim.o.expandtab = true -- Pressing the TAB key will insert spaces instead of a TAB character
