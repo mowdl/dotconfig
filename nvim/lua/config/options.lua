@@ -12,4 +12,6 @@ vim.g.nord_disable_background = true
 vim.o.cursorline = false
 
 vim.o.tabstop = 4 -- A TAB character looks like 4 spaces
-vim.o.expandtab = true -- Pressing the TAB key will insert spaces instead of a TAB character
+vim.o.expandtab = false -- Pressing the TAB key will insert spaces instead of a TAB character
+vim.o.shiftwidth = 4
+vim.o.tabstop = 4
