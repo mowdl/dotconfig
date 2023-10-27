@@ -1,0 +1,19 @@
+---
+Language:        Cpp
+# BasedOnStyle:  LLVM
+TabWidth:        4
+UseTab:          Always
+IndentWidth:     4
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterExternBlock: true
+  AfterNamespace: true
+  AfterObjCDeclaration: true
+  AfterUnion: true
+...
