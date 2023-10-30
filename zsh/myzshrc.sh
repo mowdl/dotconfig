@@ -7,3 +7,5 @@ alias a="tmux a"
 
 #
 cat ~/.config/clang-format >~/.clang-format
+
+PATH=$PATH:~/Library/Python/3.9/bin
