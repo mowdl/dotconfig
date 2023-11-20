@@ -18,4 +18,4 @@ vim.o.tabstop = 4
 
 -- Set global variables in Lua
 vim.g.user42 = "mel-meka"
-vim.g.mail42 = "mel-meka@student.42.fr"
+vim.g.mail42 = "marvin@42.fr"

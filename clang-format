@@ -1,10 +1,12 @@
 ---
 Language:        Cpp
 # BasedOnStyle:  LLVM
+# DisableFormat: true
 TabWidth:        4
 UseTab:          Always
 IndentWidth:     4
 BreakBeforeBraces: Custom
+AlignConsecutiveStyle: Consecutive
 BraceWrapping:
   AfterFunction: true
   AfterNamespace: true
