@@ -1,30 +1,74 @@
-[colors.bright]
-black = "#353539"
-blue = "#b9aeda"
-cyan = "#f591b2"
-green = "#9dc6ac"
-magenta = "#ecaad6"
-red = "#ffae9f"
-white = "#cac9dd"
-yellow = "#f0c5a9"
+# [colors.bright]
+# black = "#353539"
+# blue = "#b9aeda"
+# cyan = "#f591b2"
+# green = "#9dc6ac"
+# magenta = "#ecaad6"
+# red = "#ffae9f"
+# white = "#cac9dd"
+# yellow = "#f0c5a9"
+#
+# [colors.cursor]
+# cursor = "#757581"
+# text = "#c9c7cd"
+#
+# [colors.normal]
+# black = "#27272a"
+# blue = "#aca1cf"
+# cyan = "#ea83a5"
+# green = "#90b99f"
+# magenta = "#e29eca"
+# red = "#f5a191"
+# white = "#c1c0d4"
+# yellow = "#e6b99d"
+#
+# [colors.primary]
+# background = "#000000"
+# foreground = "#c9c7cd"
 
-[colors.cursor]
-cursor = "#757581"
-text = "#c9c7cd"
 
-[colors.normal]
-black = "#27272a"
-blue = "#aca1cf"
-cyan = "#ea83a5"
-green = "#90b99f"
-magenta = "#e29eca"
-red = "#f5a191"
-white = "#c1c0d4"
-yellow = "#e6b99d"
 
 [colors.primary]
-background = "#161617"
-foreground = "#c9c7cd"
+background = "0x000000"
+foreground = "0xFFFCF0"
+dim_foreground = "0xFFFCF0"
+bright_foreground = "0xFFFCF0"
+# dim_background = "0x1C1B1A"
+# bright_background = "0x1C1B1A"
+
+[colors.cursor]
+text = "0xFFFCF0"
+cursor = "0xFFFCF0"
+
+[colors.normal]
+black = "0x100F0F"
+red = "0xAF3029"
+green = "0x66800B"
+yellow = "0xAD8301"
+blue = "0x205EA6"
+magenta = "0xA02F6F"
+cyan = "0x24837B"
+white = "0xFFFCF0"
+
+[colors.bright]
+black = "0x100F0F"
+red = "0xD14D41"
+green = "0x879A39"
+yellow = "0xD0A215"
+blue = "0x4385BE"
+magenta = "0xCE5D97"
+cyan = "0x3AA99F"
+white = "0xFFFCF0"
+
+[colors.dim]
+black = "0x100F0F"
+red = "0xAF3029"
+green = "0x66800B"
+yellow = "0xAD8301"
+blue = "0x205EA6"
+magenta = "0xA02F6F"
+cyan = "0x24837B"
+white = "0xFFFCF0"
 
 [env]
 TERM = "xterm-256color"
@@ -53,5 +97,5 @@ option_as_alt = "Both"
 startup_mode = "SimpleFullscreen"
 
 [window.padding]
-x = 5
-y = 20
+x = 0
+y = 1

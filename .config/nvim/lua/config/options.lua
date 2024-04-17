@@ -6,7 +6,7 @@
 vim.opt.winbar = "%=%m %f"
 
 -- make background transparent
-vim.g.nord_disable_background = true
+--vim.g.nord_disable_background = true
 
 -- disable highlinting cursor line
 vim.o.cursorline = false
