@@ -19,3 +19,7 @@ vim.o.tabstop = 4
 -- Set global variables in Lua
 vim.g.user42 = "mel-meka"
 vim.g.mail42 = "marvin@42.fr"
+
+-- disable autoformating
+vim.cmd("autocmd FileType c lua vim.g.autoformat = false")
+vim.cmd("autocmd FileType h lua vim.g.autoformat = false")
